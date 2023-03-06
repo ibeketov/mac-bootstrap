@@ -200,7 +200,7 @@ if [ -d "$BOOTSTRAP_DIR" ]; then
   rm -rf "$BOOTSTRAP_DIR"
 fi
 
-git clone "$BOOTSTRAP_REPO_URL" -b "$BOOTSTRAP_VERSION" "$BOOTSTRAP_DIR"
+git clone "$BOOTSTRAP_REPO_URL" "$BOOTSTRAP_DIR"
 
 
 ################################################################################
